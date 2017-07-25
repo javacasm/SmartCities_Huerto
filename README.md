@@ -44,8 +44,32 @@ Control de invernadero
 
 ## Maqueta  Sistema de riego/invernadero
 * Medida de humedad
-* Control de valvulas de riego o de electrobomba
+* Control de válvulas de riego o de electrobomba
 
+## Ejemplos
 
+## Control riego  
+
+![](./imagenes/Riego_bb.png)
+
+Se trata de un sistema de control de riego que decide si activarse o no en función de la lectura de un sensor de humedad del suelo y de otro sensor de lluvia
+
+Ejemplo: SmartCities/Riego/Control_riego
+
+## Publicación de los datos de riego  ([ThingSpeak](https://github.com/javacasm/SmartCities_Comunes/blob/master/ThingSpeak.md)
+
+![](./imagenes/Riego_bb.png)
+
+Utilizamos el montaje anterior como fuente de datos que se publicarán en [ThingSpeak](https://github.com/javacasm/SmartCities_Comunes/blob/master/ThingSpeak.md)
+
+Ejemplo: SmartCities/Riego/Publicacion_riego
+
+## Publicación y control remoto (MQTT)
+
+Utilizamos el montaje anterior como fuente de datos que se publicarán en [MQTT](https://github.com/javacasm/SmartCities_Comunes/blob/master/mqtt.md)
+
+Se envían datos desde el servidor para controlar remotamente el riego
+
+Ejemplo: SmartCities/Riego/Publicacion_y_control_remoto
 
 ## [Referencias](./Referencias.md)
